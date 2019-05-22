@@ -14,6 +14,6 @@
       name: httpd
       state: started
   - name: Pull file from source
-      git:
-        repo: 'https://github.com/nidheeshh/website.git'
-        dest: /var/www/html
+    git:
+      repo: 'https://github.com/nidheeshh/website.git'
+      dest: /var/www/html
